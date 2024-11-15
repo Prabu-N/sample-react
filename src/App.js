@@ -14,7 +14,7 @@ function App() {
         <Route
           path="/"
           element={
-            <Suspense fallback={<></>}>
+            <Suspense fallback={<div></div>}>
               <Home />
             </Suspense>
           }
